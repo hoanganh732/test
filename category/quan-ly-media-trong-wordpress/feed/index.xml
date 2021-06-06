@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Quản Lý Media trong wordpress &#8211; Football Word</title>
+	<atom:link href="http://localhost/myproject/wordpress/category/quan-ly-media-trong-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hoanganh732.github.io/test</link>
+	<description>Trang web cập nhật thông tin về bóng đá nhanh nhất</description>
+	<lastBuildDate>Fri, 04 Jun 2021 13:03:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Quản lý Media trong wordpress</title>
+		<link>https://hoanganh732.github.io/test/quan-ly-media-trong-wordpress/quan-ly-media-trong-wordpress/</link>
+					<comments>https://hoanganh732.github.io/test/quan-ly-media-trong-wordpress/quan-ly-media-trong-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[hoanganh732]]></dc:creator>
+		<pubDate>Tue, 25 May 2021 03:52:57 +0000</pubDate>
+				<category><![CDATA[Quản Lý Media trong wordpress]]></category>
+		<category><![CDATA[hawys]]></category>
+		<category><![CDATA[quản lý]]></category>
+		<category><![CDATA[quản lý media wordpress]]></category>
+		<guid isPermaLink="false">https://hoanganh732.github.io/test/?p=24</guid>
+
+					<description><![CDATA[Quản lý thư viện Media trong WordPress I.Cấu hình File upload trong WordPress Trước khi sử dụng hình ảnh, video cũng như mp3&#8230;, chúng ta cần cài đặt các yếu tố như dung lượng, thời gian xử lý trong cấu hình File upload PHP. Để upload ảnh vào Add Media. Trong tab Upload Files, sẽ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Quản lý thư viện Media trong WordPress</strong></p>
+
+
+
+<p><strong>I.Cấu hình File upload trong WordPress</strong></p>
+
+
+
+<p> Trước khi sử dụng hình ảnh, video cũng như mp3&#8230;, chúng ta cần cài đặt các yếu tố như dung lượng, thời gian xử lý trong cấu hình File upload PHP. Để upload ảnh vào Add Media.</p>
+
+
+
+<figure class="wp-block-image size-large is-style-default"><img loading="lazy" width="720" height="720" src="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/5cab71d79ca878f621b9.jpg" alt="" class="wp-image-25" srcset="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/5cab71d79ca878f621b9.jpg 720w, https://hoanganh732.github.io/test/wp-content/uploads/2021/05/5cab71d79ca878f621b9-300x300.jpg 300w, https://hoanganh732.github.io/test/wp-content/uploads/2021/05/5cab71d79ca878f621b9-150x150.jpg 150w" sizes="(max-width: 720px) 100vw, 720px" /></figure>
+
+
+
+<p>Trong tab <strong>Upload Files</strong>, sẽ thấy <strong>Maximum upload file size</strong>: 40 MB. Đây là dung lượng tối đa mà WrodPress cho phép upload mỗi file.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="600" height="700" src="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho03-Copy.jpg" alt="" class="wp-image-23" srcset="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho03-Copy.jpg 600w, https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho03-Copy-257x300.jpg 257w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+
+
+
+<p>Có 2 cách để tăng dung lượng lên vì nhiều trường hợp file media cần upload sẽ lớn hơn 40 MB.</p>
+
+
+
+<p><strong>1. Cách 1 : Cấu hình File upload trong file php.ini</strong></p>
+
+
+
+<p> Vào file php.ini thay đổi các giá trị:</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="600" height="700" src="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho01-Copy.jpg" alt="" class="wp-image-21" srcset="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho01-Copy.jpg 600w, https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho01-Copy-257x300.jpg 257w" sizes="(max-width: 600px) 100vw, 600px" /><figcaption>Tìm trong file php.ini và thay các giá trị của:<br><strong>upload_max_filesize</strong> : 40M tức là 40MB <br><strong>post_max_size</strong> : 40M <br><strong>max_execution_tim</strong>: giá trị này là thời gian xử lý, hay thời gian upload, vì dung lượng lớn nên phải tăng thời gian tối đa cho phép xử lý, đơn vị là giây. Ví dụ 5 phút. <br><strong>2.Cách 2 : Theme function </strong><br>Chỉ nên thực hiện cách 2 sau khi không thực hiện được cách 1, <span class="has-inline-color has-bright-red-color"><em>hay không có quyền chỉnh sửa file php.ini.</em></span><br> <strong>Appearance &gt; Editor</strong></figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="600" height="700" src="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho04-Copy.jpg" alt="" class="wp-image-16" srcset="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho04-Copy.jpg 600w, https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho04-Copy-257x300.jpg 257w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+
+
+
+<p><strong>Chọn file cần sửa ở đây là</strong> <span class="has-inline-color has-bright-red-color">functions.php</span>, <strong>Tại đây thêm 3 dòng dưới vào file functions.php và lưu lại</strong>: </p>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p><span class="has-inline-color has-dark-red-color">@ini_set(&#8216;upload_max_filesize&#8217;, &#8217;64M&#8217;); </span></p>
+
+
+
+<p><span class="has-inline-color has-dark-red-color">@ini_set(&#8216;post_max_size&#8217;, &#8217;64M&#8217;); </span></p>
+
+
+
+<p><span class="has-inline-color has-dark-red-color">@ini_set(&#8216;max_execution_time&#8217;, 300);</span></p>
+</div></div>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="600" height="700" src="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho05.jpg" alt="" class="wp-image-10" srcset="https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho05.jpg 600w, https://hoanganh732.github.io/test/wp-content/uploads/2021/05/dongho05-257x300.jpg 257w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+
+
+
+<p>3.Cách 3: vào thư mục cài xampp : C:\xampp\htdocs\myproject\wordpress </p>
+
+
+
+<p><span class="has-inline-color has-dark-red-color">Thêm 4 dòng dưới vào file .htaccess:</span></p>
+
+
+
+<p><span class="has-inline-color has-dark-red-color"> php_value upload_max_filesize 64M </span></p>
+
+
+
+<p><span class="has-inline-color has-dark-red-color">php_value post_max_size 64M </span></p>
+
+
+
+<p><span class="has-inline-color has-dark-red-color">php_value max_execution_time 300 </span></p>
+
+
+
+<p>php_value max_input_time 300 </p>
+
+
+
+<p>Sau khi thay đôi, quay trở lại phần <strong>Add Media</strong> sẽ thấy giá trị upload thay đổi</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="đơn phương là gì em nhỉ?" width="640" height="480" src="https://www.youtube.com/embed/G1Jzd8N1Ge4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>https://hoanganh732.github.io/test/quan-ly-media-trong-wordpress/quan-ly-media-trong-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
